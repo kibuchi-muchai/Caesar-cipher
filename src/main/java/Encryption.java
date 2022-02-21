@@ -75,9 +75,9 @@ public class Encryption {
 
     public static void main(String[] args) {
         String text = "THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG";
-        String cipher = encrypt(text,-3);
+        String cipher = encrypt(text,-1);
         System.out.println(cipher);
-        String decrypted = decrypt(cipher,3);
+        String decrypted = decrypt(cipher,1);
         System.out.println(decrypted);
     }
 }
